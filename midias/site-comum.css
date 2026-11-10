@@ -1,0 +1,31 @@
+.rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 1.25rem;
+    background: var(--verde-claro, #a3b18a);
+    color: #26301f;
+    text-align: center;
+}
+
+.rodape-marca {
+    display: block;
+    width: min(220px, 70vw);
+    padding: 0.25rem 0.5rem;
+    border-radius: 8px;
+    background: transparent;
+    line-height: 0;
+}
+
+.rodape-logo {
+    display: block;
+    width: 100%;
+    height: 76px;
+    object-fit: contain;
+}
+
+.rodape p {
+    margin: 0;
+    line-height: 1.5;
+}

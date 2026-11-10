@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#f3eadc">
+    <meta name="description" content="Informações educativas sobre podologia, prevenção e cuidados diários com os pés, por Amanda Rangel.">
+    <title>Cuidado em Cada Passo | Artigos de Podologia</title>
+    <link rel="stylesheet" href="midias/paginas.css">
+    <link rel="icon" type="image/png" href="midias/Cursor.png">
+    <script src="midias/artigos.js" defer></script>
+</head>
+<body class="pagina-artigos">
+    <header class="topo">
+        <a href="index.html" aria-label="Amanda Rangel, página inicial">
+            <img class="logo" src="midias/logo.png" alt="Amanda Rangel">
+        </a>
+        <nav class="menu" aria-label="Navegação principal">
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="servicos.html">Serviços</a></li>
+                <li><a href="artigos.html" aria-current="page">Artigos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="apresentacao-artigos" aria-labelledby="titulo-blog">
+            <p class="sobretitulo">Blog de podologia</p>
+            <h1 id="titulo-blog">Cuidado em Cada Passo</h1>
+            <p class="subtitulo">Informação e carinho para acompanhar você em cada passo da sua jornada.</p>
+            <p class="descricao-blog">Um espaço com informações educativas sobre podologia, prevenção e cuidados diários com os pés. Cada pessoa e cada caso são diferentes; use estes conteúdos como orientação geral e procure uma profissional de saúde para avaliar sintomas e necessidades individuais.</p>
+        </section>
+
+        <section class="area-lista" aria-labelledby="titulo-lista">
+            <h2 id="titulo-lista">Explore os artigos</h2>
+            <div class="filtros" role="group" aria-label="Filtrar artigos por categoria">
+                <button class="filtro ativo" type="button" data-filtro="todos" aria-pressed="true">Todos</button>
+                <button class="filtro" type="button" data-filtro="Cuidados em casa" aria-pressed="false">Cuidados em casa</button>
+                <button class="filtro" type="button" data-filtro="Saúde das unhas" aria-pressed="false">Saúde das unhas</button>
+                <button class="filtro" type="button" data-filtro="Pele dos pés" aria-pressed="false">Pele dos pés</button>
+                <button class="filtro" type="button" data-filtro="Micoses e prevenção" aria-pressed="false">Micoses e prevenção</button>
+                <button class="filtro" type="button" data-filtro="Podologia" aria-pressed="false">Podologia</button>
+            </div>
+            <p class="resultado-filtro" id="resultado-filtro" aria-live="polite"></p>
+            <div class="grade-artigos" id="grade-artigos"></div>
+            <noscript>Ative o JavaScript no navegador para visualizar e filtrar os artigos.</noscript>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <a class="rodape-marca" href="index.html" aria-label="Amanda Rangel, página inicial">
+            <img class="rodape-logo" src="midias/logo.png" alt="Amanda Rangel">
+        </a>
+        <p>© 2026 Amanda Rangel. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
